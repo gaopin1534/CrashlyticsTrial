@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B1D9D68FCCEAE64DD58F9F52A4DE9C5 /* Pods-CrashlyticsTrialUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ED493A0E1D238B2C3DB090C24169D28 /* Pods-CrashlyticsTrialUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15AAAE13158FE1797B44D074B103FD14 /* Pods-CrashlyticsTrialUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61591AD9DA0F63C92F51716146C152E4 /* Pods-CrashlyticsTrialUITests-dummy.m */; };
+		6BF2CF92D228687C1FE6754A53FAA0A0 /* Pods-CrashlyticsTrial-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC6295D052952F778799F9FC2BDAE05 /* Pods-CrashlyticsTrial-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8259F5830E2817330EE2D78DB7D46706 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		99AD511B1897D68D857ECE1FC73AE0F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BE60108FEB664AEFEEC4117E7756A83F /* Pods-CrashlyticsTrial-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3DB03A1E73A4207BCC4A164075406F /* Pods-CrashlyticsTrial-dummy.m */; };
+		D19FC43225B114E52E6948C893FDC731 /* Pods-CrashlyticsTrialTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F2C150914FB3E67E4C3BCAE50B66A0 /* Pods-CrashlyticsTrialTests-dummy.m */; };
+		F20A8F37FB520753182A7B170B44ACEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F8927E2A6D83B106964ED3507B6E6766 /* Pods-CrashlyticsTrialTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCC15592885744F5FEABA6A7B60D9E3E /* Pods-CrashlyticsTrialTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		013FB8F0B1A3C462D8E454BB334DF63B /* Pods-CrashlyticsTrial.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CrashlyticsTrial.modulemap"; sourceTree = "<group>"; };
+		0BD9D863D279A931B2D0546A7E2D4E6B /* Pods_CrashlyticsTrial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CrashlyticsTrial.framework; path = "Pods-CrashlyticsTrial.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E3499694048A2285FF046FF9877EA97 /* Pods-CrashlyticsTrialTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CrashlyticsTrialTests.modulemap"; sourceTree = "<group>"; };
+		1763D2283CB72B20D7CF51A6C9B66C76 /* Pods-CrashlyticsTrialTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CrashlyticsTrialTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1A8FC2B7A3A8588F2AFFB396BC350EE5 /* Pods-CrashlyticsTrial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrashlyticsTrial.release.xcconfig"; sourceTree = "<group>"; };
+		1DC6295D052952F778799F9FC2BDAE05 /* Pods-CrashlyticsTrial-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CrashlyticsTrial-umbrella.h"; sourceTree = "<group>"; };
+		1FE4E0723195D069A7B8AF848E0F0FAF /* Pods_CrashlyticsTrialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CrashlyticsTrialUITests.framework; path = "Pods-CrashlyticsTrialUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		200C81134ACADBF4B01AF7F1C51DE9EC /* Crashlytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Crashlytics.h; path = iOS/Crashlytics.framework/Headers/Crashlytics.h; sourceTree = "<group>"; };
+		29DE526E5B1D3B37719460B12B391B91 /* CLSLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSLogging.h; path = iOS/Crashlytics.framework/Headers/CLSLogging.h; sourceTree = "<group>"; };
+		2C2CB5AC0D48017E7F10143F33AE075A /* Pods-CrashlyticsTrialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrashlyticsTrialTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2ED493A0E1D238B2C3DB090C24169D28 /* Pods-CrashlyticsTrialUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CrashlyticsTrialUITests-umbrella.h"; sourceTree = "<group>"; };
+		4031FCC77343790E6A4AFFA82C39CC25 /* Pods-CrashlyticsTrial-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CrashlyticsTrial-acknowledgements.plist"; sourceTree = "<group>"; };
+		445AA067C52CE5ABB2462C70486090D0 /* Pods-CrashlyticsTrialTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CrashlyticsTrialTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		494C290BDBEAED23BA5743A3CE2FA0D1 /* FABAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABAttributes.h; path = iOS/Fabric.framework/Headers/FABAttributes.h; sourceTree = "<group>"; };
+		4B3DB03A1E73A4207BCC4A164075406F /* Pods-CrashlyticsTrial-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CrashlyticsTrial-dummy.m"; sourceTree = "<group>"; };
+		5B0AC4555A08701A9F1760172610E0AF /* ANSCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANSCompatibility.h; path = iOS/Crashlytics.framework/Headers/ANSCompatibility.h; sourceTree = "<group>"; };
+		61591AD9DA0F63C92F51716146C152E4 /* Pods-CrashlyticsTrialUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CrashlyticsTrialUITests-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6D1FE2046D57337BC8E3164E4A65D4C7 /* Pods-CrashlyticsTrialUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrashlyticsTrialUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E1DC509DEF3BA90E66176D1F8C689A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		703DC1B92324B009C56B85D6347389D7 /* Pods-CrashlyticsTrial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrashlyticsTrial.debug.xcconfig"; sourceTree = "<group>"; };
+		73F2C150914FB3E67E4C3BCAE50B66A0 /* Pods-CrashlyticsTrialTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CrashlyticsTrialTests-dummy.m"; sourceTree = "<group>"; };
+		75F159EF4EEC8DC4373295A008BD8D88 /* Pods-CrashlyticsTrialUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CrashlyticsTrialUITests-frameworks.sh"; sourceTree = "<group>"; };
+		7CF0AA00F20F5F2AECC05D6FD4DBAFD0 /* Pods-CrashlyticsTrial-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CrashlyticsTrial-resources.sh"; sourceTree = "<group>"; };
+		82981FB005A4ED4C556297735FD4ACED /* Fabric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fabric.h; path = iOS/Fabric.framework/Headers/Fabric.h; sourceTree = "<group>"; };
+		856A7EF81F93DD33C78FA7140067110C /* CLSReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSReport.h; path = iOS/Crashlytics.framework/Headers/CLSReport.h; sourceTree = "<group>"; };
+		8C48CFE9F115C5C695CBBFE43C4E84D8 /* Pods-CrashlyticsTrialUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CrashlyticsTrialUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8DB331D62E03B90D571016097AB0A7E0 /* CLSAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSAttributes.h; path = iOS/Crashlytics.framework/Headers/CLSAttributes.h; sourceTree = "<group>"; };
+		92972CC1C216B42A9AB4B6EABB27FC16 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E18B088A6B8EAAC949219EC1D34D1AA /* Pods-CrashlyticsTrialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrashlyticsTrialTests.release.xcconfig"; sourceTree = "<group>"; };
+		A450EC89DEB38F7A74151F6A6AFC950D /* Pods_CrashlyticsTrialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CrashlyticsTrialTests.framework; path = "Pods-CrashlyticsTrialTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A61E08527EFC3DBEDD4BFA0B5C45104C /* Answers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Answers.h; path = iOS/Crashlytics.framework/Headers/Answers.h; sourceTree = "<group>"; };
+		A79F32D9E3E6757651DDA37AC6841946 /* Pods-CrashlyticsTrial-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CrashlyticsTrial-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AE3EED49B436C80FE84D0B45A4EFB70A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEF828AF37E18A65F47D77078867817B /* Pods-CrashlyticsTrialUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CrashlyticsTrialUITests.modulemap"; sourceTree = "<group>"; };
+		B1E75C70830EDE0522218F62073E524F /* Pods-CrashlyticsTrialUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CrashlyticsTrialUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C108BDACF1B22024050F682E64DC48AC /* Pods-CrashlyticsTrialTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CrashlyticsTrialTests-resources.sh"; sourceTree = "<group>"; };
+		C7A7F6E54E9F2DB2A7FF232E7CDA0B64 /* Pods-CrashlyticsTrialUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrashlyticsTrialUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C7D78C385A188834118864C9F052FD03 /* Pods-CrashlyticsTrialUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CrashlyticsTrialUITests-resources.sh"; sourceTree = "<group>"; };
+		CA35A080952A0F7ECAA4BC0672126814 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCC15592885744F5FEABA6A7B60D9E3E /* Pods-CrashlyticsTrialTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CrashlyticsTrialTests-umbrella.h"; sourceTree = "<group>"; };
+		D3524FBEA532A60A7023B51F28DF4435 /* Pods-CrashlyticsTrial-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CrashlyticsTrial-frameworks.sh"; sourceTree = "<group>"; };
+		DBA48C54AB315A7317F3DD387EF04883 /* CLSStackFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSStackFrame.h; path = iOS/Crashlytics.framework/Headers/CLSStackFrame.h; sourceTree = "<group>"; };
+		E9ED19C7995011C3D715E8A237D80D7A /* Pods-CrashlyticsTrialTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CrashlyticsTrialTests-frameworks.sh"; sourceTree = "<group>"; };
+		EAC88243AB9F702F3015F7068842116A /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = iOS/Crashlytics.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C2432E0FAE65E32B4C360CDE8C723D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99AD511B1897D68D857ECE1FC73AE0F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB054E1317DAFFE6C7A2590C3B320B1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8259F5830E2817330EE2D78DB7D46706 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB6C25452C73A3B832DDA24A0D7D1629 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20A8F37FB520753182A7B170B44ACEE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DECF7299F0875E9BCB9492390207331 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26F9D6AB1F30C869A5F58AF8EF5A99C8 /* Crashlytics */,
+				D479A0301687E2A8F6F67D392B8551D2 /* Fabric */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		20E75B75B7EBC90EC881D0099924FABF /* Pods-CrashlyticsTrialTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE3EED49B436C80FE84D0B45A4EFB70A /* Info.plist */,
+				0E3499694048A2285FF046FF9877EA97 /* Pods-CrashlyticsTrialTests.modulemap */,
+				1763D2283CB72B20D7CF51A6C9B66C76 /* Pods-CrashlyticsTrialTests-acknowledgements.markdown */,
+				445AA067C52CE5ABB2462C70486090D0 /* Pods-CrashlyticsTrialTests-acknowledgements.plist */,
+				73F2C150914FB3E67E4C3BCAE50B66A0 /* Pods-CrashlyticsTrialTests-dummy.m */,
+				E9ED19C7995011C3D715E8A237D80D7A /* Pods-CrashlyticsTrialTests-frameworks.sh */,
+				C108BDACF1B22024050F682E64DC48AC /* Pods-CrashlyticsTrialTests-resources.sh */,
+				CCC15592885744F5FEABA6A7B60D9E3E /* Pods-CrashlyticsTrialTests-umbrella.h */,
+				2C2CB5AC0D48017E7F10143F33AE075A /* Pods-CrashlyticsTrialTests.debug.xcconfig */,
+				9E18B088A6B8EAAC949219EC1D34D1AA /* Pods-CrashlyticsTrialTests.release.xcconfig */,
+			);
+			name = "Pods-CrashlyticsTrialTests";
+			path = "Target Support Files/Pods-CrashlyticsTrialTests";
+			sourceTree = "<group>";
+		};
+		26F9D6AB1F30C869A5F58AF8EF5A99C8 /* Crashlytics */ = {
+			isa = PBXGroup;
+			children = (
+				5B0AC4555A08701A9F1760172610E0AF /* ANSCompatibility.h */,
+				A61E08527EFC3DBEDD4BFA0B5C45104C /* Answers.h */,
+				8DB331D62E03B90D571016097AB0A7E0 /* CLSAttributes.h */,
+				29DE526E5B1D3B37719460B12B391B91 /* CLSLogging.h */,
+				856A7EF81F93DD33C78FA7140067110C /* CLSReport.h */,
+				DBA48C54AB315A7317F3DD387EF04883 /* CLSStackFrame.h */,
+				200C81134ACADBF4B01AF7F1C51DE9EC /* Crashlytics.h */,
+				E268B07786115FF5D5DFF396150E695F /* Frameworks */,
+			);
+			name = Crashlytics;
+			path = Crashlytics;
+			sourceTree = "<group>";
+		};
+		2DDA681774534EB985F60A3418A4C908 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92972CC1C216B42A9AB4B6EABB27FC16 /* Fabric.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1DECF7299F0875E9BCB9492390207331 /* Pods */,
+				D35E72D1376D6B1E5C48E84B2D36DD09 /* Products */,
+				FA4E214934AEF5DCD2CC3583D768A6E3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7B231B4ADD069FB12762E3AC0420B36 /* Pods-CrashlyticsTrialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA35A080952A0F7ECAA4BC0672126814 /* Info.plist */,
+				AEF828AF37E18A65F47D77078867817B /* Pods-CrashlyticsTrialUITests.modulemap */,
+				8C48CFE9F115C5C695CBBFE43C4E84D8 /* Pods-CrashlyticsTrialUITests-acknowledgements.markdown */,
+				B1E75C70830EDE0522218F62073E524F /* Pods-CrashlyticsTrialUITests-acknowledgements.plist */,
+				61591AD9DA0F63C92F51716146C152E4 /* Pods-CrashlyticsTrialUITests-dummy.m */,
+				75F159EF4EEC8DC4373295A008BD8D88 /* Pods-CrashlyticsTrialUITests-frameworks.sh */,
+				C7D78C385A188834118864C9F052FD03 /* Pods-CrashlyticsTrialUITests-resources.sh */,
+				2ED493A0E1D238B2C3DB090C24169D28 /* Pods-CrashlyticsTrialUITests-umbrella.h */,
+				6D1FE2046D57337BC8E3164E4A65D4C7 /* Pods-CrashlyticsTrialUITests.debug.xcconfig */,
+				C7A7F6E54E9F2DB2A7FF232E7CDA0B64 /* Pods-CrashlyticsTrialUITests.release.xcconfig */,
+			);
+			name = "Pods-CrashlyticsTrialUITests";
+			path = "Target Support Files/Pods-CrashlyticsTrialUITests";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D35E72D1376D6B1E5C48E84B2D36DD09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BD9D863D279A931B2D0546A7E2D4E6B /* Pods_CrashlyticsTrial.framework */,
+				A450EC89DEB38F7A74151F6A6AFC950D /* Pods_CrashlyticsTrialTests.framework */,
+				1FE4E0723195D069A7B8AF848E0F0FAF /* Pods_CrashlyticsTrialUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D479A0301687E2A8F6F67D392B8551D2 /* Fabric */ = {
+			isa = PBXGroup;
+			children = (
+				494C290BDBEAED23BA5743A3CE2FA0D1 /* FABAttributes.h */,
+				82981FB005A4ED4C556297735FD4ACED /* Fabric.h */,
+				2DDA681774534EB985F60A3418A4C908 /* Frameworks */,
+			);
+			name = Fabric;
+			path = Fabric;
+			sourceTree = "<group>";
+		};
+		E268B07786115FF5D5DFF396150E695F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAC88243AB9F702F3015F7068842116A /* Crashlytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB7C2B271199A26576ED286D75A7D936 /* Pods-CrashlyticsTrial */ = {
+			isa = PBXGroup;
+			children = (
+				6E1DC509DEF3BA90E66176D1F8C689A5 /* Info.plist */,
+				013FB8F0B1A3C462D8E454BB334DF63B /* Pods-CrashlyticsTrial.modulemap */,
+				A79F32D9E3E6757651DDA37AC6841946 /* Pods-CrashlyticsTrial-acknowledgements.markdown */,
+				4031FCC77343790E6A4AFFA82C39CC25 /* Pods-CrashlyticsTrial-acknowledgements.plist */,
+				4B3DB03A1E73A4207BCC4A164075406F /* Pods-CrashlyticsTrial-dummy.m */,
+				D3524FBEA532A60A7023B51F28DF4435 /* Pods-CrashlyticsTrial-frameworks.sh */,
+				7CF0AA00F20F5F2AECC05D6FD4DBAFD0 /* Pods-CrashlyticsTrial-resources.sh */,
+				1DC6295D052952F778799F9FC2BDAE05 /* Pods-CrashlyticsTrial-umbrella.h */,
+				703DC1B92324B009C56B85D6347389D7 /* Pods-CrashlyticsTrial.debug.xcconfig */,
+				1A8FC2B7A3A8588F2AFFB396BC350EE5 /* Pods-CrashlyticsTrial.release.xcconfig */,
+			);
+			name = "Pods-CrashlyticsTrial";
+			path = "Target Support Files/Pods-CrashlyticsTrial";
+			sourceTree = "<group>";
+		};
+		FA4E214934AEF5DCD2CC3583D768A6E3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB7C2B271199A26576ED286D75A7D936 /* Pods-CrashlyticsTrial */,
+				20E75B75B7EBC90EC881D0099924FABF /* Pods-CrashlyticsTrialTests */,
+				C7B231B4ADD069FB12762E3AC0420B36 /* Pods-CrashlyticsTrialUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AD97AC81A5A8CA68810D82B9394EDB33 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B1D9D68FCCEAE64DD58F9F52A4DE9C5 /* Pods-CrashlyticsTrialUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F22BCC6A4067C571830F276A91CDF8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF2CF92D228687C1FE6754A53FAA0A0 /* Pods-CrashlyticsTrial-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBEBE25EB9B26AABA7574F7502616581 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8927E2A6D83B106964ED3507B6E6766 /* Pods-CrashlyticsTrialTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		392747338843F29D7C8D881CD7C4BFA3 /* Pods-CrashlyticsTrialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84CCD21C23645F5028EDD9011C555BA7 /* Build configuration list for PBXNativeTarget "Pods-CrashlyticsTrialUITests" */;
+			buildPhases = (
+				01A40619BEC7651EAA0ABFDE48C7F739 /* Sources */,
+				FB6C25452C73A3B832DDA24A0D7D1629 /* Frameworks */,
+				AD97AC81A5A8CA68810D82B9394EDB33 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CrashlyticsTrialUITests";
+			productName = "Pods-CrashlyticsTrialUITests";
+			productReference = 1FE4E0723195D069A7B8AF848E0F0FAF /* Pods_CrashlyticsTrialUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5B105A99458129D0C4FB6ED574A28C06 /* Pods-CrashlyticsTrial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3906198D14F7D855D4BC85301DDE6309 /* Build configuration list for PBXNativeTarget "Pods-CrashlyticsTrial" */;
+			buildPhases = (
+				9490838F369848FEF0A9CD1FC3D78FE4 /* Sources */,
+				FB054E1317DAFFE6C7A2590C3B320B1F /* Frameworks */,
+				C4F22BCC6A4067C571830F276A91CDF8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CrashlyticsTrial";
+			productName = "Pods-CrashlyticsTrial";
+			productReference = 0BD9D863D279A931B2D0546A7E2D4E6B /* Pods_CrashlyticsTrial.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AF4F09ADB073C38057B07FA882905007 /* Pods-CrashlyticsTrialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2DFFC918DD95CBA554CDAE6169AE58A /* Build configuration list for PBXNativeTarget "Pods-CrashlyticsTrialTests" */;
+			buildPhases = (
+				D77AFA0919304D65B2E836D025E537C2 /* Sources */,
+				3C2432E0FAE65E32B4C360CDE8C723D5 /* Frameworks */,
+				EBEBE25EB9B26AABA7574F7502616581 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CrashlyticsTrialTests";
+			productName = "Pods-CrashlyticsTrialTests";
+			productReference = A450EC89DEB38F7A74151F6A6AFC950D /* Pods_CrashlyticsTrialTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D35E72D1376D6B1E5C48E84B2D36DD09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B105A99458129D0C4FB6ED574A28C06 /* Pods-CrashlyticsTrial */,
+				AF4F09ADB073C38057B07FA882905007 /* Pods-CrashlyticsTrialTests */,
+				392747338843F29D7C8D881CD7C4BFA3 /* Pods-CrashlyticsTrialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01A40619BEC7651EAA0ABFDE48C7F739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15AAAE13158FE1797B44D074B103FD14 /* Pods-CrashlyticsTrialUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9490838F369848FEF0A9CD1FC3D78FE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE60108FEB664AEFEEC4117E7756A83F /* Pods-CrashlyticsTrial-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D77AFA0919304D65B2E836D025E537C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D19FC43225B114E52E6948C893FDC731 /* Pods-CrashlyticsTrialTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		05047DFC02408D70A4EAE07608AE0CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7A7F6E54E9F2DB2A7FF232E7CDA0B64 /* Pods-CrashlyticsTrialUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CrashlyticsTrialUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CrashlyticsTrialUITests/Pods-CrashlyticsTrialUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CrashlyticsTrialUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1A41B15D3AA834993ADDD808FA9D8764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AE67D374687AEC05CC01BB81B3AD4B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 703DC1B92324B009C56B85D6347389D7 /* Pods-CrashlyticsTrial.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CrashlyticsTrial/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CrashlyticsTrial/Pods-CrashlyticsTrial.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CrashlyticsTrial;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2E11B391D53051CD630961213D88D298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E18B088A6B8EAAC949219EC1D34D1AA /* Pods-CrashlyticsTrialTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CrashlyticsTrialTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CrashlyticsTrialTests/Pods-CrashlyticsTrialTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CrashlyticsTrialTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		31EE6D265A177AC1BCBCB68939E364FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C2CB5AC0D48017E7F10143F33AE075A /* Pods-CrashlyticsTrialTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CrashlyticsTrialTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CrashlyticsTrialTests/Pods-CrashlyticsTrialTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CrashlyticsTrialTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D144F724433A09597E3476A57631255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9F760B5C41D681EA7818EB1BA50DD748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D1FE2046D57337BC8E3164E4A65D4C7 /* Pods-CrashlyticsTrialUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CrashlyticsTrialUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CrashlyticsTrialUITests/Pods-CrashlyticsTrialUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CrashlyticsTrialUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA07DECD416F29A3D600017FCD6E9512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A8FC2B7A3A8588F2AFFB396BC350EE5 /* Pods-CrashlyticsTrial.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CrashlyticsTrial/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CrashlyticsTrial/Pods-CrashlyticsTrial.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CrashlyticsTrial;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D144F724433A09597E3476A57631255 /* Debug */,
+				1A41B15D3AA834993ADDD808FA9D8764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3906198D14F7D855D4BC85301DDE6309 /* Build configuration list for PBXNativeTarget "Pods-CrashlyticsTrial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AE67D374687AEC05CC01BB81B3AD4B0 /* Debug */,
+				BA07DECD416F29A3D600017FCD6E9512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84CCD21C23645F5028EDD9011C555BA7 /* Build configuration list for PBXNativeTarget "Pods-CrashlyticsTrialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F760B5C41D681EA7818EB1BA50DD748 /* Debug */,
+				05047DFC02408D70A4EAE07608AE0CC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2DFFC918DD95CBA554CDAE6169AE58A /* Build configuration list for PBXNativeTarget "Pods-CrashlyticsTrialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31EE6D265A177AC1BCBCB68939E364FE /* Debug */,
+				2E11B391D53051CD630961213D88D298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
